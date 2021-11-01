@@ -1,0 +1,41 @@
+
+&CONTROL
+  calculation='scf',
+  outdir='.',
+  prefix='pwscf',
+  pseudo_dir=$ESPRESSO_PSEUDO,
+  verbosity='low',
+/
+
+&SYSTEM
+  ibrav=14,
+  celldm(1)=9.5809114515d0, celldm(2)=0.5779092702d0, celldm(3)=0.9861932939d0,
+  celldm(4)=0.0000000000d0, celldm(5)=0.0000000000d0, celldm(6)=0.0000000000d0,
+  nat=5,
+  ntyp=1,
+  ecutwfc=30,
+  ecutrho=120,
+  input_dft='lda',
+  occupations='smearing',
+  smearing='mv',
+  degauss=0.005d0,
+/
+
+&ELECTRONS
+  conv_thr=1d-06,
+  mixing_beta=0.7d0,
+/
+
+ATOMIC_SPECIES
+  B 10.811000d0 B.UPF
+
+ATOMIC_POSITIONS {crystal}
+   B   0.0000000000d0   0.0000000000d0   0.0000000000d0
+   B   0.3333300000d0   0.0000000000d0   0.0000000000d0
+   B   0.6666700000d0   0.0000000000d0   0.0000000000d0
+   B   0.1666700000d0   0.4948800000d0   0.0000000000d0
+   B   0.4990100000d0   0.4948800000d0   0.0000000000d0
+
+K_POINTS {automatic}
+  1 1 1 0 0 0
+

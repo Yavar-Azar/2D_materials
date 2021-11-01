@@ -1,0 +1,47 @@
+
+&CONTROL
+  calculation='vc-relax',
+  outdir='./',
+  prefix='b12_22',
+  pseudo_dir="./",
+  verbosity='low',
+/
+
+&SYSTEM
+  ibrav=8,
+  celldm(1)=9.405, celldm(2)=0.5935997450, celldm(3)=1.2d0,
+  nat=5,
+  ntyp=1,
+  ecutwfc=30,
+  ecutrho=200,
+  occupations='smearing',
+  smearing='mv',
+  degauss=0.005d0,
+/
+
+&ELECTRONS
+  conv_thr=1d-06,
+  mixing_beta=0.1d0,
+/
+
+&ions
+/
+
+&cell
+cell_dofree='2Dxy'
+/
+
+ATOMIC_SPECIES
+  B 10.811000d0  B.pbe-n-rrkjus_psl.1.0.0.UPF 
+
+ATOMIC_POSITIONS {crystal}
+   B   0.0000000000d0   0.0000000000d0   0.0000000000d0   0 0 0   
+   B   0.3333300000d0   0.0000000000d0   0.0000000000d0   0 0 0
+   B   0.6666700000d0   0.0000000000d0   0.0000000000d0   0 0 0
+   B   0.1666700000d0   0.500000d0   0.0000000000d0   0 0 0
+   B   0.500000d0   0.500000d0   0.0000000000d0   0 0 0
+
+K_POINTS {automatic}
+  2 4 1 0 0 0
+
+
