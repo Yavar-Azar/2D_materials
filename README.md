@@ -40,9 +40,43 @@ In the case of B12 we have B1|B2|B3 atoms as is shown in
 
 ![b12_dos_atomlabels](./figures/b12/b12_dos_atomlabels.svg)
 
+**DOS/LDOS**
+
+From above fig one can see that B1 and B2 have dominant contribution near the Fermi energy while B3 has no significant contribution in this regoin, This can also be seen from LDOS plot which shows regoins with denser states near the fermi surface as bright and regoin with lower number of states in dark
+
+
+
+**PDOS**
+
+projected dos shows larger contribution of Pz orbitals
+
+
+
 ![b12_dos_orbitals](./figures/b12/b12_dos_orbitals.svg)
 
 ![b12_ldos_0.0](./figures/b12/b12_ldos_0.0.svg)
+
+
+
+## X3
+
+- X3 has two types of atom named B1, B2
+- B1 has more contribution in fermi states (bright regoin in ldos plot)
+- despite B12 structure px and py orbitals play a significant role in fermi level DOS which indicates totally different type of hybridation for these materials 
+
+
+
+
+
+![x3_ldos_0](./figures/X3/x3_ldos_0.svg)
+
+![x3_pdos_orbitals](./figures/X3/x3_pdos_orbitals.svg)
+
+![x3_site_dos](./figures/X3/x3_site_dos.svg)
+
+
+
+
 
 
 
@@ -52,11 +86,21 @@ In the case of B12 we have B1|B2|B3 atoms as is shown in
 
 
 
+## B12_Fe
+
+
+
+- Fe 3d6 electron exchange with semifilled Pz orbitals of six neighbor boron atoms
+
+
+
 Adsorption of adatoms and gases can affect their properties drastically
 
 Fe/X3   =====    average bonding length 1.93
 
 
+
+## X3_Fe
 
 
 
