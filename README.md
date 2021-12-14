@@ -28,17 +28,23 @@ Thsese structural has metalic character and nonmagnetic
 
 In the case of B12 we have B1|B2|B3 atoms as is shown in 
 
-![image](/home/yavar/MYGIT/2D_materials/figures/b12/image.png)
+![image](./figures/b12/image.png)
 
 
 
-![b12_dos_atomlabels](/home/yavar/MYGIT/2D_materials/figures/b12/b12_dos_atomlabels.svg)
 
-![b12_dos_orbitals](/home/yavar/MYGIT/2D_materials/figures/b12/b12_dos_orbitals.svg)
 
-![b12_ldos_0.0](/home/yavar/MYGIT/2D_materials/figures/b12/b12_ldos_0.0.svg)
 
-![image](/home/yavar/MYGIT/2D_materials/figures/b12/image.png)
+
+![b12_band](./figures/b12/b12_band.svg)
+
+![b12_dos_atomlabels](./figures/b12/b12_dos_atomlabels.svg)
+
+![b12_dos_orbitals](./figures/b12/b12_dos_orbitals.svg)
+
+![b12_ldos_0.0](./figures/b12/b12_ldos_0.0.svg)
+
+
 
 
 
